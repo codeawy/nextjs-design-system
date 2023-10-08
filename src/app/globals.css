@@ -5,10 +5,10 @@
 @layer base {
   /* LIGHT */
   :root {
-    --foreground: 240 10% 3.92%;
+    --foreground: black;
 
-    --primary: 253 60% 52.9%;
-    --primary-foreground: 0 0% 100%;
+    --primary: #026e78;
+    --primary-hover: #015364;
 
     --destructive: 349.44 87.1% 45%;
     --destructive-foreground: 210 40% 98%;
@@ -17,9 +17,10 @@
   }
 
   .dark {
-    --foreground: 0 0% 75.91%;
+    --foreground: white;
 
-    --primary: 152.9 60% 52.9%;
+    --primary: #026e78;
+    --primary-hover: #015364;
     --destructive: 0 63% 31%;
     --destructive-foreground: 210 40% 98%;
 
