@@ -11,8 +11,12 @@ const config: Config = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "hsl(var(--default-brand)/.7)",
-          foreground: "red",
+          DEFAULT: "hsl(var(--primary)/.7)",
+          foreground: "hsl(var(--primary-foreground))",
+        },
+        destructive: {
+          DEFAULT: "hsl(var(--destructive))",
+          foreground: "hsl(var(--destructive-foreground))",
         },
       },
     },
